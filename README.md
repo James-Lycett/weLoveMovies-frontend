@@ -5,7 +5,7 @@ This is the Front End Application for the WeLoveMovies project.
 
 This app is intended as just a demo for the weLoveMovies API, to show how the API might be used.
 
-### Links
+## Links
 A deployed version of this app is available here: https://welovemovies-frontend-zsml.onrender.com/
 
 
