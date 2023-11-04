@@ -1,10 +1,15 @@
 # WeLoveMovies Frontend Application
 
-This is the Front End Application for the WeLoveMovies project. Follow the instructions below.
+This is the Front End Application for the WeLoveMovies project.
 
-## Installation
 
-1. Fork / clone this repository.
-1. Run `npm install`.
+This app is intended as just a demo for the weLoveMovies API, to show how the API might be used.
 
-Use `npm start` to run the application. If you deploy this application, create a `.env.production` file similar to the `.env.development` file.
+### Links
+A deployed version of this app is available here: https://welovemovies-frontend-zsml.onrender.com/
+
+
+The API repo can be found here:  https://github.com/James-Lycett/weLoveMovies
+
+
+The API is deployed here: https://welovemovies-backend-ksdj.onrender.com
