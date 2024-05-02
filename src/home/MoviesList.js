@@ -31,15 +31,20 @@ function MoviesList() {
       </Link>
     </article>
   ));
-
-  return (
-    <main className="container">
-      <ErrorAlert error={error} />
-      <h2 className="font-poppins">Now Showing</h2>
-      <hr />
-      <section className="row">{list}</section>
-    </main>
-  );
+  if (movies.length > 0) {
+    return (
+      <main className="container">
+        <ErrorAlert error={error} />
+        <h2 className="font-poppins">Now Showing</h2>
+        <hr />
+        <section className="row">{list}</section>
+      </main>
+    );
+  } else {
+    return (
+      <p>The server spins down after a period of inactivity in order to save me money. If you don't see anything here give it a minute and reload the page.</p>
+    )
+  }
 }
 
 export default MoviesList;
